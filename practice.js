@@ -44,7 +44,7 @@ function doubleCheck(arr){
       if (arr[i] != "chocolate")
       count++
   }
-  if (count <= arr.length - 1){
+  if (count == arr.length){
     arr.push("chocolate");
   }
   return arr
