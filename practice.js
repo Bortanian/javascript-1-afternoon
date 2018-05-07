@@ -39,8 +39,9 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 //doubleCheck should return the array.
 
 function doubleCheck(arr){
+  var count = 0;
   for (var i = 0; i < arr.length; i++ ){
-      var count = 0;
+      
       if (arr[i] != "chocolate")
       count++
   }
